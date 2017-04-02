@@ -1,0 +1,16 @@
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  a {
+    background-color: #ddd;
+  }
+}
+@media (min-width: $breakpoint-tablet) {
+  h1 {
+    background-color: #ddd;
+  }
+}
+@media (min-width: $breakpoint-tablet) {
+  p {
+    background-color: #ddd;
+  }
+}
