@@ -25,8 +25,14 @@
 
 <body>
 
-	<!-- Здесь пишем код -->
-    <img src="img/123.jpg" alt="">
+	<?php
+        $page = $_GET['page'] ?? 'catalog';
+        function render($page) {
+            include __DIR__ . '/views/' . $page . '.php';
+        }
+
+        render('header');
+    ?>
 
 	<div class="hidden"></div>
 
